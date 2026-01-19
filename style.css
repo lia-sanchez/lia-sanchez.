@@ -117,3 +117,46 @@ body {
   transform: scale(1.08);
   box-shadow: 0 0 20px rgba(255,255,255,0.35);
 }
+/* =========================
+   VERSIÓN MÓVIL ULTRA FINA
+========================= */
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin-top: 20px;
+    text-align: center;
+    -webkit-text-stroke: 1.5px black;
+  }
+
+  .slider {
+    height: 60vh;
+  }
+
+  .slider img {
+    object-fit: cover;
+  }
+
+  .botones {
+    width: 90%;
+    margin: 30px auto;
+    gap: 15px;
+  }
+
+  .boton {
+    font-size: 18px;
+    padding: 14px;
+    border-radius: 14px;
+  }
+
+  .boton img {
+    width: 22px;
+    height: 22px;
+  }
+
+}
+
