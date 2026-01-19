@@ -53,12 +53,15 @@ body {
 
 /* ANIMACIÓN */
 @keyframes slide {
-  0%   { transform: translateX(0); }
-  25%  { transform: translateX(-100vw); }
-  50%  { transform: translateX(-200vw); }
-  75%  { transform: translateX(-300vw); }
-  100% { transform: translateX(0); }
+  0%    { transform: translateX(0); }
+  16%   { transform: translateX(-100vw); }
+  32%   { transform: translateX(-200vw); }
+  48%   { transform: translateX(-300vw); }
+  64%   { transform: translateX(-400vw); }
+  80%   { transform: translateX(-500vw); }
+  100%  { transform: translateX(0); }
 }
+
 
 /* BOTONES */
 .botones {
@@ -163,6 +166,7 @@ body {
 }
 
 }
+
 
 
 
