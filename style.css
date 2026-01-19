@@ -166,6 +166,12 @@ body {
 }
 
 }
+/* ===== SLIDER MÓVIL 6 FOTOS ===== */
+.slider-track {
+  width: 600vw;
+  animation: slide 30s infinite;
+}
+
 
 
 
