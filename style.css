@@ -39,10 +39,11 @@ body {
 
 .slider-track {
   display: flex;
-  width: 400vw;
+  width: 600vw; /* 6 fotos */
   height: 100vh;
-  animation: slide 20s infinite;
+  animation: slide 30s infinite;
 }
+
 
 .slider-track img {
   width: 100vw;
@@ -162,5 +163,6 @@ body {
 }
 
 }
+
 
 
